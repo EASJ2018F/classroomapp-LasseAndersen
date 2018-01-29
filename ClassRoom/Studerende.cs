@@ -8,22 +8,15 @@ namespace ClassRoom
 {
     class Studerende
     {
-
-        private string _navn;
-        private int _fødselsdag;
-        private int _fødselsmåned;
-
-
-        public string navn { get; }
-        public int fødselsdag { get; }
-        public int fødselsmåned { get; }
-
+        public string Navn { get; }
+        public int Fødselsdag { get; }
+        public int Fødselsmåned { get; }
 
         public Studerende(string navn, int fødselsdag, int fødselsmåned)
         {
-            _navn = navn;
-            _fødselsdag = fødselsdag;
-            _fødselsmåned = fødselsmåned;
+            Navn = navn;
+            Fødselsdag = fødselsdag;
+            Fødselsmåned = fødselsmåned;
         }
     }
 }
